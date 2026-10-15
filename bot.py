@@ -232,5 +232,4 @@ async def on_message(message: discord.Message):
     await bot.process_commands(message)
     
 if __name__ == "__main__":
-    keep_alive()
     bot.run(DISCORD_TOKEN)
