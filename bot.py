@@ -5,6 +5,7 @@ import json
 import discord
 from discord.ext import commands
 from dotenv import load_dotenv
+from keep_alive import keep_alive
 
 # Initialize Natural Language Toolkit for exact grammar identification
 import nltk
