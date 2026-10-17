@@ -10,7 +10,7 @@ class TranslatorTests(unittest.TestCase):
         self.assertEqual(self.t.translate(source), expected)
 
     def test_questions(self):
-        self.check("Can you help me?", "Canst thou help me?")
+        self.check("Can you help me?", "Canst thou aid me?")
         self.check("How are you?", "How art thou?")
 
     def test_negation(self):
