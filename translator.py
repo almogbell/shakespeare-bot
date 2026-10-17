@@ -38,7 +38,7 @@ PROTECTED = re.compile(
 VERBS = {"are":"art","have":"hast","has":"hast","do":"dost",
  "does":"dost","will":"wilt","shall":"shalt","can":"canst",
  "could":"couldst","would":"wouldst","know":"knowest",
- "think":"thinkest","want":"desirest","like":"likest",
+ "think":"thinkest","mean":"meanest","want":"desirest","like":"likest",
  "love":"lovest","see":"seest","speak":"speakest","need":"needest",
  "say":"sayest","play":"playest","look":"lookest","feel":"feelest",
  "believe":"believest","understand":"understandest"}
