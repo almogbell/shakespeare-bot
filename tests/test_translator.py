@@ -16,6 +16,9 @@ class TranslatorTests(unittest.TestCase):
     def test_negation(self):
         self.check("I don't know.", "I know not.")
 
+    def test_mean_conjugation(self):
+        self.check("I don\'t know what you mean.", "I know not what thou meanest.")
+
     def test_pronouns(self):
         self.check("I saw you yesterday.", "I saw thee yesterday.")
         self.check("Your friend is here.", "Thy good fellow is here.")
